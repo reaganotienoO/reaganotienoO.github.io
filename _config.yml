@@ -1,29 +1,26 @@
-# The Site Configuration
-
-# Import the theme
+# ==================================================
+# Core Settings
+# ==================================================
 theme: jekyll-theme-chirpy
-
-# The language of the webpage
 lang: en
-
-# Change to your timezone (Nairobi)
 timezone: Africa/Nairobi
-
-# jekyll-seo-tag settings
 title: Reagan Odhiambo Otieno
-
 tagline: Data Analyst | Applied Statistician
-
 description: >-
-  Professional portfolio showcasing my expertise in data analysis, statistical modeling, and data visualization using Python, R, SQL, and Power BI.
+  Professional portfolio showcasing expertise in Python, R, SQL, and Power BI for data analysis,
+  statistical modeling, and business intelligence solutions.
 
-url: "https://reaganotienoO.github.io/reaganotienoo.io"
+# ==================================================
+# URL & Deployment (CRITICAL SETTINGS)
+# ==================================================
+url: "https://reaganotienoO.github.io"
+baseurl: ""  # Leave empty for root domains
 
+# ==================================================
+# Social & Professional Profiles
+# ==================================================
 github:
   username: reaganotienoO
-
-twitter:
-  username: "" # Leave empty if no Twitter
 
 social:
   name: Reagan Odhiambo Otieno
@@ -32,75 +29,42 @@ social:
     - https://www.linkedin.com/in/reagan-otieno-441539351
     - https://github.com/reaganotienoO
     - https://www.datascienceportfol.io/otienireagan
+    - mailto:otieni.reagan@gmail.com
 
-# Site Verification Settings (leave empty if not using)
-webmaster_verifications:
-  google: 
-  bing: 
-  alexa: 
-  yandex: 
-  baidu: 
-  facebook: 
+# ==================================================
+# Visual Customization
+# ==================================================
+avatar: /assets/img/profile.jpg  # Path to your profile photo
+social_preview_image: /assets/img/social-preview.jpg  # SEO preview image
+theme_mode: light  # [light | dark | empty for system default]
 
-# Web Analytics Settings (leave empty if not using)
-analytics:
-  google:
-    id: 
-  goatcounter:
-    id: 
-  umami:
-    id: 
-    domain: 
+# ==================================================
+# Content Settings
+# ==================================================
+toc: true  # Table of Contents in posts
+paginate: 10  # Posts per page
 
-# Page views settings
-pageviews:
-  provider: 
+# ==================================================
+# Optional Features (Disable if not needed)
+# ==================================================
+# Analytics (uncomment and fill if used)
+# analytics:
+#   google:
+#     id: UA-XXXXXX-X
 
-# Theme mode (light/dark or leave empty for system preference)
-theme_mode: 
+# Comments (uncomment if needed)
+# comments:
+#   provider: disqus
+#   disqus:
+#     shortname: your-disqus-shortname
 
-# CDN settings (leave empty if not using CDN)
-cdn:
-
-# Avatar image path
-avatar: /assets/img/profile.jpg
-
-# Social preview image
-social_preview_image: /assets/img/social-preview.jpg
-
-# Table of Contents settings
-toc: true
-
-# Comments settings (leave empty if not using comments)
-comments:
-  provider: 
-
-# Self-hosted assets (leave default)
-assets:
-  self_host:
-    enabled: 
-    env: 
-
-pwa:
-  enabled: true
-  cache:
-    enabled: true
-    deny_paths:
-
-paginate: 10
-
-# The base URL of your site
-baseurl: ""
-
-# ------------ Advanced settings (recommend not modifying) ------------------
-
+# ==================================================
+# Advanced Settings (Recommended not to modify)
+# ==================================================
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: highlight
-    span:
-      line_numbers: false
     block:
       line_numbers: true
       start_line: 1
@@ -116,7 +80,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true
+      comments: false
       toc: true
       permalink: /posts/:title/
   - scope:
@@ -130,18 +94,6 @@ defaults:
       layout: page
       permalink: /:title/
 
-sass:
-  style: compressed
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
-
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -149,15 +101,5 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - purgecss.js
   - "*.config.js"
   - "package*.json"
-
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
