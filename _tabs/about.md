@@ -31,4 +31,4 @@ University of Kabianga | *2020 - 2022*
 - Second Class Upper Division  
 - Relevant coursework: Mathematical Statistics, Programming  
 
-[Download Full CV (PDF)](/assets/pdf/Reagan_Odhiambo_cv.pdf)
+[Download Full CV (PDF)](/assets/Reagan_Odhiambo_cv.pdf)
