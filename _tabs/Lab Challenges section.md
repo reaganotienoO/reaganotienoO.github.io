@@ -1,5 +1,5 @@
 ---
-layout: categories
+layout: Lab Challenges
 icon: fas fa-stream
 order: 7
 ---
