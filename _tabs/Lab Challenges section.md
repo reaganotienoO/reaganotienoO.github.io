@@ -1,6 +1,6 @@
 ---
 title: Lab Challenges section
-layout: archive  # Uses Chirpy's card layout
+layout: page  # Uses Chirpy's card layout
 icon: fas fa-laptop-code
 order: 4
 permalink: /challenges/
