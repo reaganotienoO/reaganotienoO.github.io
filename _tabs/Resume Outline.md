@@ -35,13 +35,13 @@ Babadogo, Nairobi, Kenya |  [otieni.reagan@gmail.com](mailto:otieni.reagan@gmail
 - Translated complex data insights into actionable business recommendations  
 
 ### **Freelance Academic Writer**  
-📅 Aug 2020 – Present  
+Aug 2020 – Present  
 - Authored **100+ research papers** on data science topics using R, SPSS, and Python  
 - Created data visualizations to communicate statistical findings effectively  
 - Managed agile workflows to deliver projects under tight deadlines  
 
 ### **Industrial Attachment**  
-*National Hospital Insurance Fund, Nairobi* | 📅 Oct 2021 – Dec 2021  
+*National Hospital Insurance Fund, Nairobi* | Oct 2021 – Dec 2021  
 - Executed data cleansing initiative resolving **10,000+ errors** in healthcare records  
 - Analyzed financial data to support strategic planning decisions  
 
@@ -49,11 +49,11 @@ Babadogo, Nairobi, Kenya |  [otieni.reagan@gmail.com](mailto:otieni.reagan@gmail
 
 ##  Technical Skills  
 **Programming**  
-```python
+```
 Python | SQL | R | SPSS
 ```
 **Data Tools**  
-```excel
+```
 Power BI | Excel | Pandas | Tableau
 ```
 **Analytical Methods**  
