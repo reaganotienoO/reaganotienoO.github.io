@@ -2,7 +2,7 @@
 title: Contacts Section  # Explicit title needed for some themes
 layout: page    # Some themes prefer 'page' over 'about'
 icon: fas fa-stream
-order: 7
+order: 5
 ---
 
 ## Contacts
