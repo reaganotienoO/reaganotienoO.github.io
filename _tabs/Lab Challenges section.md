@@ -1,5 +1,6 @@
 ---
-layout: about
+title: Contacts  # Explicit title needed for some themes
+layout: page    # Some themes prefer 'page' over 'about'
 icon: fas fa-stream
 order: 7
 ---
