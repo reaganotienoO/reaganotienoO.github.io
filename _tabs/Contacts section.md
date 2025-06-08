@@ -3,7 +3,6 @@ layout: archives
 icon: fas fa-archive
 order: 8
 ---
-## Contacts
 
 - **Email**: [otieni.reagan@gmail.com](mailto:otieni.reagan@gmail.com)  
 - **Phone**: [+254716441958](tel:+254716441958)  
