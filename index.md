@@ -6,7 +6,7 @@ title: Home Page
 
 # Reagan Odhiambo Otieno
 
-![Reagan Odhiambo Otieno](path/to/your/photo.jpg)  
+![Reagan Odhiambo Otieno](assets/Reagan.PNG)  
 *Data Analyst | Problem Solver | Strategic Communicator*
 
 ---
