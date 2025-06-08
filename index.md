@@ -1,26 +1,26 @@
 ---
 layout: page
+title: Home Page
 # Index page
 ---
 
-# Reagan Odhiambo Otieno  
-**Data Analyst | AI & Statistics Graduate**  
+# Reagan Odhiambo Otieno
 
-📍 Nairobi, Kenya • 📧 [otieni.reagan@gmail.com](mailto:otieni.reagan@gmail.com) • 🔗 [LinkedIn](https://www.linkedin.com/in/reagan-otieno-441539351)  
+![Reagan Odhiambo Otieno](path/to/your/photo.jpg)  
+*Data Analyst | Problem Solver | Strategic Communicator*
 
 ---
 
-## About Me  
-Recent graduate with a **BSc in Applied Statistics with Computing** and certifications in **Data Analysis & AI**. Passionate about transforming raw data into actionable insights to drive strategic decisions.  
+### Professional Statement  
+Recent graduate with a Bachelor's in Applied Statistics with Computing and certifications in Data Analysis and AI. Passionate about transforming complex data into actionable insights to drive innovation and growth across Africa.  
 
 **Key Strengths:**  
-- **Data Solutions**: Proficient in Python, SQL, Power BI, and R—optimized workflows by 30% at Dive Africa.  
-- **Visual Storytelling**: Build interactive dashboards (Power BI/Excel) to simplify complex data for stakeholders.  
-- **Problem-Solving**: Cleaned 10,000+ records at NHIF to improve data accuracy for financial planning.  
-- **Communication**: Authored 100+ data science papers, bridging technical and non-technical audiences.  
+- Analytical & Problem-Solving (Python, SQL, Power BI)  
+- Strategic Communication for Technical & Non-Technical Audiences  
+- Collaborative Team Player with Agile Adaptability  
 
-**Recent Projects:**  
-- **Healthcare Dashboard**: Real-time KPI tracking with Power BI.  
-- **E-Commerce Analysis**: SQL-driven user behavior insights to boost sales.  
+*"Solving problems through data-driven innovation to unlock possibilities."*  
 
-[View Full Portfolio →](/Projects-section/) | [Download Resume →](/Resume-Outline/)  
+---
+
+[Explore My Portfolio](#) | [Connect on LinkedIn](https://www.linkedin.com/in/reagan-otieno-441539351) 
