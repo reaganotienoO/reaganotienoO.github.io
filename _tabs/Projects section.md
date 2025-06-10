@@ -5,45 +5,48 @@ icon: fas fa-project-diagram  # Font Awesome project icon
 order: 3  # Adjust based on your navigation order
 ---
 
-## Data Analysis Projects
+# Healthcare Data Analysis Project
 
-### Healthcare Data Analysis Dashboard
-**Tools**: Excel, Power BI  
-**Date**: April 2025  
-- Developed real-time monitoring dashboards tracking key healthcare metrics  
-- Automated reporting reduced manual work by 30%  
-- [View Dashboard Screenshot](#) *(add actual link when available)*  
+## Overview
+This project analyzes healthcare data to uncover trends in patient demographics, hospital admissions, financial performance, and disease prevalence. The goal is to provide actionable insights for improving patient care, optimizing resources, and reducing costs. The analysis was conducted using Excel for data cleaning and exploration, and Power BI for interactive visualization.
 
-### Online Store Sales Analysis
-**Tools**: SQL, Power BI  
-**Date**: March 2025  
-- Analyzed 10,000+ transaction records to identify user behavior patterns  
-- Recommendations led to 15% improvement in conversion rates  
-- [View Analysis Report](#)  
+## Objectives
+- **Patient Demographics**: Analyze age, gender distribution, and common medical conditions.
+- **Hospital Admissions**: Examine trends in admissions, length of stay, and seasonal variations.
+- **Financial Performance**: Assess total billing, cost drivers, and high-cost conditions.
+- **Disease Prevalence**: Identify common chronic diseases and their impact on healthcare costs.
+- **Recommendations**: Develop strategies to optimize patient management and reduce costs.
 
----
+## Tools Used
+- **Excel**: Data cleaning, standardization, and preliminary analysis.
+- **Power BI**: Interactive dashboard for visualization and deeper insights.
 
-## Professional Work
+## Key Insights
+### Patient Demographics
+- **Total Patients**: 55,000 (50.02% Male, 49.98% Female).
+- **Age Groups**: Young adults and senior adults dominate the patient population.
 
-### Dive Africa (Data Analyst Apprentice)
-**Feb 2025 - May 2025**  
-- Built interactive Power BI dashboards that improved decision-making efficiency by 30%  
-- Designed data collection systems ensuring 99.8% accuracy  
-- [View Sample Dashboard](#)  
+### Hospital Admissions
+- **Seasonal Trends**: Spikes in admissions during January and July.
+- **Length of Stay**: Average of 15 days, with older patients staying longer.
 
-### NHIF Data Cleansing Initiative
-**Oct 2021 - Dec 2021**  
-- Resolved 10,000+ data errors in national healthcare database  
-- Developed automated validation scripts (Python)  
+### Financial Performance
+- **Total Billing**: \$1 Billion.
+- **High-Cost Conditions**: Diabetes and obesity account for nearly \$500M in billing.
 
----
+### Disease Prevalence
+- **Common Conditions**: Diabetes, hypertension, obesity, and arthritis are prevalent, especially among older patients.
 
-## Academic Projects
-*Available upon request*  
-- 100+ research papers on data science topics  
-- Statistical models built with R/SPSS  
+## Recommendations
+1. **Preventive Care**: Implement targeted health programs for young and senior adults to reduce chronic diseases.
+2. **Cost Optimization**: Invest in preventive measures and negotiate better insurance coverage for chronic conditions.
+3. **Resource Management**: Increase staffing during peak months and introduce home-based care programs to optimize bed usage.
+4. **Data-Driven Strategies**: Use predictive analytics for early intervention and personalized treatment plans.
 
-<div class="text-center">
-  <a href="https://www.datascienceportfol.io/otienireagan" class="btn btn-outline-primary">View Full Portfolio</a>
-  <a href="mailto:otieni.reagan@gmail.com" class="btn btn-outline-success">Request Project Details</a>
-</div>
+## Interactive Dashboard
+Explore the full analysis in the interactive Power BI dashboard:  
+[View Dashboard](https://app.powerbi.com/reportEmbed?reportId=c9e08f52-3df8-4e35-a979-1e7e3b536430&autoAuth=true&ctid=c5f7004a-3295-4205-9179-1b0ca576040c)
+
+## Conclusion
+This project highlights the power of data analytics in healthcare, offering actionable insights to improve patient outcomes and operational efficiency. The Power BI dashboard enables real-time decision-making for healthcare administrators.
+
