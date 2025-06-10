@@ -125,7 +125,7 @@ Feel free to fork or clone the project if you're interested in building visualiz
 
 # AtliQ Grands Hotel Analytics Dashboard
 
-![Dashboard Screenshot](/assets/projects/hotel_analytics.png)  
+![Dashboard Screenshot](/assets/projects/hotel_analytics.PNG)  
 *Interactive Power BI dashboard for revenue, occupancy, and booking analysis*
 
 ---
