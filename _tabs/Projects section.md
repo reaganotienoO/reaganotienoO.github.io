@@ -123,6 +123,95 @@ Full code and notebook available on Kaggle:
 
 Feel free to fork or clone the project if you're interested in building visualizations or running additional analysis on the cleaned data.
 
+# AtliQ Grands Hotel Analytics Dashboard
+
+![Dashboard Screenshot](/assets/projects/hotel_analytics.png)  
+*Interactive Power BI dashboard for revenue, occupancy, and booking analysis*
+
+---
+
+## Overview
+
+This project delivers a business intelligence solution for **AtliQ Grands**, a luxury hotel chain in India, to address declining market share. Using Power BI, I transformed raw hotel data into actionable insights to support decisions around pricing, occupancy, and revenue management.
+
+🔗 **Live Dashboard**:  
+[View in Power BI](https://app.powerbi.com/reportEmbed?reportId=d1f8a079-e99d-4e12-a017-15651d8406a5&autoAuth=true&ctid=c5f7004a-3295-4205-9179-1b0ca576040c)
+
+---
+
+## Business Problem
+
+AtliQ Grands was facing challenges that affected its revenue and competitive standing:
+
+- Ineffective pricing strategies.
+- Limited visibility into booking channel performance.
+- No centralized tool for real-time performance monitoring.
+
+---
+
+## Solution Highlights
+
+### 1. Data Model (Star Schema)
+
+- **Fact Tables**:
+  - `fact_bookings`: revenue, cancellations.
+  - `fact_aggregated_bookings`: occupancy.
+- **Dimension Tables**:
+  - `dim_date`
+  - `dim_rooms`
+  - `dim_hotel`
+- Relationships were defined to support clean filtering and performance.
+
+### 2. Key DAX Metrics
+
+```dax
+Revenue = SUM(fact_bookings[revenue_realized])
+RevPAR = DIVIDE([Revenue], [Total Capacity])  // Revenue per available room
+ADR = DIVIDE([Revenue], [Total Bookings], 0)  // Average Daily Rate
+Occupancy % = DIVIDE([Total Successful Bookings], [Total Capacity], 0)
+```
+### 3. Dashboard Features
+
+**KPIs:**
+- Total Revenue: ₹1.76B  
+- Occupancy: 57.79%  
+- ADR (Average Daily Rate): ₹12,695  
+
+**Filters:**
+- City  
+- Room Type  
+- Week Number  
+- Booking Platform  
+
+**Insights:**
+- Mumbai properties led in revenue, with ₹84M from AtliQ Enrica.  
+- Weekday occupancy was lower (55.85%) compared to weekends (62.64%).  
+- Direct bookings had a 70% realization rate, while third-party platforms achieved only 50%.
+
+---
+
+## Tools & Techniques
+
+- **Power BI**: Built interactive visuals, KPIs, and custom DAX measures.  
+- **Power Query**: Cleaned and pre-processed data, including fixing incorrect `day_type` values.  
+- **Star Schema**: Used to optimize performance and ensure clean relationships between tables.
+
+---
+
+## Key Insights
+
+### Revenue Drivers
+- Luxury rooms accounted for 60% of total revenue.
+- Hyderabad properties had the highest occupancy rate at 66.07%.
+
+### Booking Channels
+- Direct bookings had a higher ADR (₹14,200) than bookings from travel websites (₹11,500).
+
+### Weekly Trends
+- Revenue peaked in Week 25 (₹87M), likely due to holiday demand.
+
+---
+
 
 
 
