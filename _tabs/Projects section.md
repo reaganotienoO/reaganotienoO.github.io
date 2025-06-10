@@ -7,6 +7,8 @@ order: 3  # Adjust based on your navigation order
 
 # Healthcare Data Analysis Project
 
+![Dashboard Screenshot](/assets/projects/health.PNG)  
+
 ## Overview
 This project analyzes healthcare data to uncover trends in patient demographics, hospital admissions, financial performance, and disease prevalence. The goal is to provide actionable insights for improving patient care, optimizing resources, and reducing costs. The analysis was conducted using Excel for data cleaning and exploration, and Power BI for interactive visualization.
 
@@ -44,9 +46,12 @@ This project analyzes healthcare data to uncover trends in patient demographics,
 4. **Data-Driven Strategies**: Use predictive analytics for early intervention and personalized treatment plans.
 
 ## Interactive Dashboard
+
 Explore the full analysis in the interactive Power BI dashboard:  
 [View Dashboard](https://app.powerbi.com/reportEmbed?reportId=c9e08f52-3df8-4e35-a979-1e7e3b536430&autoAuth=true&ctid=c5f7004a-3295-4205-9179-1b0ca576040c)
 
 ## Conclusion
 This project highlights the power of data analytics in healthcare, offering actionable insights to improve patient outcomes and operational efficiency. The Power BI dashboard enables real-time decision-making for healthcare administrators.
+
+
 
