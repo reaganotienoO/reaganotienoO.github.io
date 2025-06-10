@@ -75,6 +75,7 @@ The dataset contains information about Netflix content, including titles, genres
 ### 1. Dataset Exploration
 - Loaded the data into a pandas DataFrame.
 - Examined column types, null values, and checked for duplicate records.
+  ![Data Exploration Dashboard](/assets/projects/Data%20exploration.PNG)  
 
 ### 2. Structuring the Data
 - Converted `date_added` to datetime format.
