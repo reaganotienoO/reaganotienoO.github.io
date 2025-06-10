@@ -5,7 +5,7 @@ icon: fas fa-project-diagram  # Font Awesome project icon
 order: 3  # Adjust based on your navigation order
 ---
 
-# Healthcare Data Analysis Project
+# 1. Healthcare Data Analysis Project
 
 ![Dashboard Screenshot](/assets/projects/health.PNG)  
 
