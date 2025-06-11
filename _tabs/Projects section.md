@@ -123,7 +123,7 @@ Full code and notebook available on Kaggle:
 
 Feel free to fork or clone the project if you're interested in building visualizations or running additional analysis on the cleaned data.
 
-# AtliQ Grands Hotel Analytics Dashboard
+# 3. AtliQ Grands Hotel Analytics Dashboard
 
 ![Dashboard Screenshot](/assets/projects/hotel_analytics.PNG)  
 *Interactive Power BI dashboard for revenue, occupancy, and booking analysis*
