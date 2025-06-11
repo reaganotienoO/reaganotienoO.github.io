@@ -74,18 +74,4 @@ Power BI | Excel | Pandas | Tableau
 2. **Tata Data Visualization** – *Forage* (March 2025)  
 3. **Data Analysis with R** – *Young Computing Professionals* (2019)  
 
----
-
-##  Projects  
-### Netflix Data Wrangling ([Kaggle](https://www.kaggle.com/code/reaganodhiambootieno/netflix-data-wrangling))  
-- Cleaned dataset with **8,800+ records** using Python/Pandas  
-- Automated missing value imputation for director/cast fields  
-- Resolved **100% of temporal inconsistencies** (release_date vs date_added)  
-
-### Healthcare Dashboard  
-- Developed real-time monitoring system in Power BI  
-- Reduced manual reporting workload by **25%**  
-
-
-
 [Download Full CV (PDF)](/assets/Reagan_Odhiambo_cv.pdf)
