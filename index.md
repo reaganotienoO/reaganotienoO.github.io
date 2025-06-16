@@ -23,4 +23,4 @@ Recent graduate with a Bachelor's in Applied Statistics with Computing and certi
 
 ---
 
-[Explore My Portfolio](#) | [Connect on LinkedIn](https://www.linkedin.com/in/reagan-otieno-441539351) 
+[Explore My Portfolio](#) | [Connect on LinkedIn](https://www.linkedin.com/in/reagan-odhiambo-otieno1) 
