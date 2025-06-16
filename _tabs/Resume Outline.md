@@ -7,7 +7,7 @@ order: 1
 
 # Reagan Odhiambo Otieno  
 Babadogo, Nairobi, Kenya |  [otieni.reagan@gmail.com](mailto:otieni.reagan@gmail.com) |  [+254716441958](tel:+254716441958)  
- [LinkedIn](https://www.linkedin.com/in/reagan-otieno-441539351) |  [GitHub](https://github.com/reaganotienoO) |  [Portfolio](https://www.datascienceportfol.io/otienireagan)  
+ [LinkedIn](https://www.linkedin.com/in/reagan-odhiambo-otieno1) |  [GitHub](https://github.com/reaganotienoO) |  [Portfolio](https://www.datascienceportfol.io/otienireagan)  
 
 ---
 
