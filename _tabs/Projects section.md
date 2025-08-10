@@ -240,7 +240,7 @@ Best model achieved:
 4. Send POST requests to `/predict` endpoint with housing features
 
 ## Code
-[View on Colab](https://colab.research.google.com/drive/1a1DJQYqrankQRB5cKm7VeZ7QhizllLq?usp=sharing)
+[View on Colab](https://colab.research.google.com/drive/1a1DJ0YqranKoRB5cIXm7VeZ7QhizilLq?usp=sharing)
 
 ## Future Improvements
 - Try other regression algorithms (Random Forest, Gradient Boosting)
