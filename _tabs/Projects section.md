@@ -215,7 +215,7 @@ Occupancy % = DIVIDE([Total Successful Bookings], [Total Capacity], 0)
 
 ## Project Overview
 This project predicts median house values in California using the California Housing dataset. It implements a complete ML workflow including data preprocessing, KNN regression model training with hyperparameter tuning, evaluation, and deployment via FastAPI.
-
+![Screenshot](/assets/projects/housepred.PNG)  
 ## Features
 - Data preprocessing pipeline with imputation and scaling
 - KNeighborsRegressor with GridSearchCV for hyperparameter tuning
