@@ -211,7 +211,41 @@ Occupancy % = DIVIDE([Total Successful Bookings], [Total Capacity], 0)
 - Revenue peaked in Week 25 (₹87M), likely due to holiday demand.
 
 ---
+# 4.California Housing Price Prediction
 
+## Project Overview
+This project predicts median house values in California using the California Housing dataset. It implements a complete ML workflow including data preprocessing, KNN regression model training with hyperparameter tuning, evaluation, and deployment via FastAPI.
+
+## Features
+- Data preprocessing pipeline with imputation and scaling
+- KNeighborsRegressor with GridSearchCV for hyperparameter tuning
+- Model evaluation using R², MSE, and RMSE metrics
+- FastAPI deployment for real-time predictions
+
+## Technologies Used
+- Python
+- scikit-learn
+- FastAPI
+- NumPy, pandas
+
+## Results
+Best model achieved:
+- R² Score: 0.722
+- RMSE: 0.603
+
+## How to Use
+1. Clone this repository
+2. Install requirements: `pip install -r requirements.txt`
+3. Run the FastAPI app: `uvicorn app:app --reload`
+4. Send POST requests to `/predict` endpoint with housing features
+
+## Code
+[View on Colab](https://colab.research.google.com/drive/1a1DJQYqrankQRB5cKm7VeZ7QhizllLq?usp=sharing)
+
+## Future Improvements
+- Try other regression algorithms (Random Forest, Gradient Boosting)
+- Feature engineering on geographical coordinates
+- Add more comprehensive error handling in API
 
 
 
