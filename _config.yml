@@ -34,7 +34,7 @@ social:
 # ==================================================
 # Visual Customization
 # ==================================================
-avatar: assets/profile.PNG  # Path to your profile photo
+avatar: assets/profile.png  # Path to your profile photo
 social_preview_image: false # SEO preview image
 theme_mode: light  # [light | dark | empty for system default]
 
