@@ -33,7 +33,7 @@ social:
 # ==================================================
 # Visual Customization
 # ==================================================
-avatar: assets/prof.PNG  # Path to your profile photo (ensure correct case)
+avatar: _site/assets/prof.PNG  # Path to your profile photo (ensure correct case)
 social_preview_image: false # SEO preview image
 theme_mode: light  # [light | dark | empty for system default]
 
