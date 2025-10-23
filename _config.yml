@@ -103,3 +103,5 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
+include:
+  - assets
