@@ -272,7 +272,8 @@ The analysis integrates **Excel**, **Python**, and **Power BI** to uncover key c
 1. **Data Collection & Merging:** Combined multiple Excel sheets using Python (`pandas`) to create a master dataset.  
 2. **Data Cleaning (Excel):** Removed duplicates, handled missing values, standardized formats, and converted categorical data.  
 3. **Feature Engineering (Excel):** Added new columns such as *Age Group* and *Tenure Group* to segment customers for deeper analysis.  
-4. **Visualization (Power BI):** Built interactive dashboards displaying churn rate, retention rate, customer demographics, and regional performance.  
+4. **Visualization (Power BI):** Built interactive dashboards displaying churn rate, retention rate, customer demographics, and regional performance.
+ ![Screenshot](assets/projects/Bank Churn Analysis.PNG)
 5. **Machine Learning (Python):** Trained a **Random Forest Classifier** to predict customer churn based on behavioral and financial attributes.  
 
 ---
