@@ -13,7 +13,7 @@ description: >-
 # ==================================================
 # URL & Deployment (CRITICAL SETTINGS)
 # ==================================================
-url: "https://reaganotienoO.github.io"
+url: "https://reaganotienoo.github.io"  # Use all lowercase for consistency
 baseurl: ""  # Leave empty for root domains
 
 # ==================================================
@@ -29,19 +29,18 @@ social:
     - https://www.linkedin.com/in/reagan-odhiambo-otieno1
     - https://github.com/reaganotienoO
     - https://www.datascienceportfol.io/otienireagan
-    - mailto:otieni.reagan@gmail.com
 
 # ==================================================
 # Visual Customization
 # ==================================================
-avatar: assets/profile.png  # Path to your profile photo
+avatar: assets/profile.png  # Path to your profile photo (ensure correct case)
 social_preview_image: false # SEO preview image
 theme_mode: light  # [light | dark | empty for system default]
 
 # ==================================================
 # Content Settings
 # ==================================================
-toc: true  # Table of Contents in posts
+toc: true  # Enable table of contents in posts
 paginate: 10  # Posts per page
 
 # ==================================================
@@ -94,6 +93,9 @@ defaults:
       layout: page
       permalink: /:title/
 
+# ==================================================
+# File Management
+# ==================================================
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -103,5 +105,6 @@ exclude:
   - LICENSE
   - "*.config.js"
   - "package*.json"
+
 include:
   - assets
