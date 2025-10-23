@@ -247,5 +247,94 @@ Best model achieved:
 - Feature engineering on geographical coordinates
 - Add more comprehensive error handling in API
 
+---
+
+# 5. 🏦 Bank Customer Churn Analysis and Prediction
+## Project Summary
+
+The **Bank Customer Churn Analysis and Prediction** project explores customer behavior in a banking institution to understand and predict why clients close their accounts or stop using the bank’s services.  
+
+The analysis integrates **Excel**, **Python**, and **Power BI** to uncover key churn patterns, visualize insights, and build a predictive model that identifies customers most likely to leave.  
+
+---
+
+## Key Objectives
+
+- Analyze customer data to identify factors that contribute to churn  
+- Visualize churn patterns using interactive Power BI dashboards  
+- Develop a machine learning model to predict potential churners  
+- Provide actionable recommendations to improve customer retention  
+
+---
+
+## Methodology
+
+1. **Data Collection & Merging:** Combined multiple Excel sheets using Python (`pandas`) to create a master dataset.  
+2. **Data Cleaning (Excel):** Removed duplicates, handled missing values, standardized formats, and converted categorical data.  
+3. **Feature Engineering (Excel):** Added new columns such as *Age Group* and *Tenure Group* to segment customers for deeper analysis.  
+4. **Visualization (Power BI):** Built interactive dashboards displaying churn rate, retention rate, customer demographics, and regional performance.  
+5. **Machine Learning (Python):** Trained a **Random Forest Classifier** to predict customer churn based on behavioral and financial attributes.  
+
+---
+
+## Insights
+
+- Overall churn rate: **20%**  
+- **Female customers (25%)** had a higher churn rate than **male customers (16%)**  
+- **Germany** recorded the highest churn rate (**32%**)  
+- **Older** and **pre-retirement** customers were more likely to leave  
+- **Low-balance** and **inactive** customers showed higher churn tendencies  
+
+---
+
+## Model Performance
+
+- **Algorithm:** Random Forest Classifier  
+- **Accuracy:** **86.06%**  
+- **Precision (Churned):** 0.75  
+- **Recall (Churned):** 0.47  
+- **F1-Score (Churned):** 0.58  
+
+The model performed strongly in predicting customers who stayed and can be further optimized to better detect churners.
+
+---
+
+## Feature Importance
+
+| Feature | Description | Impact |
+|----------|--------------|--------|
+| **Age** | Older customers churn more | High |
+| **Balance** | Different balance levels affect churn | Medium |
+| **IsActiveMember** | Active members are less likely to churn | Strong |
+| **EstimatedSalary** | Moderate impact | Moderate |
+
+---
+
+## Recommendations
+
+- Launch **loyalty and retention programs** for long-term customers  
+- Personalize engagement for **female** and **older** clients  
+- Target **low-balance** customers with offers and financial advice  
+- Enhance **onboarding** for new customers to build early loyalty  
+- Continuously **monitor churn trends** using Power BI dashboards and predictive analytics  
+
+---
+
+## Conclusion
+
+This project demonstrates how combining **data analytics** and **machine learning** can help banks understand customer behavior, predict churn, and take proactive steps to retain valuable clients.  
+The integration of **Excel, Python, and Power BI** provides a powerful end-to-end approach — from data cleaning and exploration to visualization and predictive modeling.
+
+**Model Accuracy:** 86.06%  
+**Outcome:** Data-driven insights and strategies to reduce churn and enhance customer loyalty.
+
+---
+
+## Resources
+
+- [🔗 Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=bc11e71a-0e91-490f-b104-32a5d7bac019&autoAuth=true&ctid=c5f7004a-3295-4205-9179-1b0ca576040c)  
+- [🔗 Google Colab Code](https://colab.research.google.com/drive/1pfaXjD55C9NWht6HPSOx8Z50-I3lQnOg?usp=sharing)
+
+---
 
 
