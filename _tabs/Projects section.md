@@ -336,8 +336,9 @@ The integration of **Excel, Python, and Power BI** provides a powerful end-to-en
 - [🔗 Power BI Dashboard](https://app.powerbi.com/reportEmbed?reportId=bc11e71a-0e91-490f-b104-32a5d7bac019&autoAuth=true&ctid=c5f7004a-3295-4205-9179-1b0ca576040c)  
 - [🔗 Google Colab Code](https://colab.research.google.com/drive/1pfaXjD55C9NWht6HPSOx8Z50-I3lQnOg?usp=sharing)
 - [Download BANK CUSTOMER CHURN PREDICTION (PDF)](/assets/projects/BANK CUSTOMER CHURN PREDICTION PROJECT REPORT.pdf)
-- [Download Analysis Report (PDF)](/assets/projects/Bank_Customer_Churn_Analysis_Report (1).pdf)
 - [Download Analysis Report (PBIX)](/assets/projects/Bank Churn Analysis.pbix)
+- [Download Analysis Report (PDF)](/assets/projects/Bank_Customer_Churn_Analysis_Report (1).pdf)
+
 
 ---
 
