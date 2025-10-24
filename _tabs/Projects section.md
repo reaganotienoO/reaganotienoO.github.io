@@ -338,7 +338,7 @@ The integration of **Excel, Python, and Power BI** provides a powerful end-to-en
 - [Download BANK CUSTOMER CHURN PREDICTION (PDF)](/assets/projects/BANK CUSTOMER CHURN PREDICTION PROJECT REPORT.pdf)
 - [Download Analysis Report (PBIX)](/assets/projects/Bank Churn Analysis.pbix)
 - [Download Analysis Report (PDF)](/assets/projects/Bank_Customer_Churn_Analysis_Report (1).pdf)
-- [Download Dataset](/assets/projects/Bank Churn Analysis.pbix)
+- [Download Dataset](/assets/projects/Bank_Churn_Merged_By_CustomerID.xlsx)
 
 
 ---
