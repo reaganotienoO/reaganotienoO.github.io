@@ -343,3 +343,74 @@ The integration of **Excel, Python, and Power BI** provides a powerful end-to-en
 
 ---
 
+# 6. COVID-19 Time Series Analysis & Forecasting Project
+
+![Dashboard Screenshot](/assets/projects/Covid.PNG)
+
+## Overview
+This project analyzes global COVID-19 data (January 22 – July 27, 2020) to uncover trends in case growth, mortality, recovery, and infection waves across countries. It covers data cleaning, exploratory analysis, time series decomposition, ARIMA forecasting, and a multi-country interactive dashboard built in Python.
+
+## Objectives
+- **Data Preparation**: Clean and aggregate daily records (49,068 rows) into country-level time series.
+- **Trend Analysis**: Track daily new cases, 7-day moving averages, active cases, and growth rates.
+- **Country Comparison**: Compare the US, India, Brazil, Germany, and Italy on cases, mortality, and recovery.
+- **Forecasting**: Test an ARIMA model for predicting new-case trends.
+- **Interactive Dashboard**: Build a Plotly dashboard for exploring the results.
+
+## Tools Used
+- **Python**: Pandas, NumPy, SciPy for data cleaning and feature engineering.
+- **Matplotlib & Seaborn**: Static visualizations and heatmaps.
+- **Plotly**: Interactive dashboard.
+- **Statsmodels & Scikit-learn**: Time series decomposition, ARIMA modeling, and error metrics (MAE, RMSE).
+- **Google Colab**: Development and hosting environment.
+
+## Key Insights
+### Country Comparison (as of 2020-07-27)
+| Country | Confirmed | Deaths | Mortality Rate | Peak Daily Cases |
+|---|---|---|---|---|
+| US | 4,290,259 | 148,011 | 3.45% | 77,255 (Jul 16) |
+| Brazil | 2,442,375 | 87,618 | — | 67,860 (Jul 22) |
+| India | 1,480,073 | 33,408 | 2.26% | 49,981 (Jul 26) |
+
+### Trends
+- **US**: The 7-day average rose to about 31,000 cases in April, declined through May and June, then surged past 65,000 in July. Active cases reached about 2.8M.
+- **India & Brazil**: Both showed steadily rising curves into late July. India had the highest recovery rate (64.26%, vs. 30.90% for the US).
+- **Germany & Italy**: Both peaked in March–April and stayed low afterward (July monthly averages of about 416 and 203 daily cases).
+- **Mortality**: Rates in the US and Brazil peaked around May and then declined, while India stayed lower (2.26% at the end).
+
+### Time Series Analysis
+- **Decomposition**: A 30-day additive decomposition showed a clear trend with a cyclical seasonal component (range about -1,571 to +1,724 cases).
+- **Autocorrelation**: ACF/PACF plots showed strong persistence in daily cases, which guided the ARIMA(7,1,0) setup.
+
+### Forecasting
+- **ARIMA(7,1,0)** on the US 7-day average: MAE ≈ 21,082, RMSE ≈ 24,798.
+- The model projected a plateau near 30,000 cases while actual cases kept climbing past 65,000, so a simple ARIMA cannot capture sudden surges.
+
+## Recommendations
+1. **Early Warning**: Monitor growth rate and 7-day averages to detect surges early.
+2. **Resource Planning**: Scale testing, staffing, and hospital capacity ahead of rising active-case trends.
+3. **Better Forecasting**: Use richer models (Prophet, SARIMA, or models with mobility and policy data) instead of a basic ARIMA.
+4. **Context Matters**: Compare regions at similar stages of their outbreak rather than on raw totals.
+
+## Limitations & Next Steps
+- Reported cases depend on testing capacity and reporting practices, which differ by country.
+- Peak detection split the US curve into 15 small "waves"; it needs smoothing or a prominence threshold.
+- The simple R0 estimate returned 0.00 because of infinite growth rates in early data and should be replaced with a proper method.
+- "UK" returned no data because the dataset uses "United Kingdom".
+- Next steps: implement Prophet, tune ARIMA, and add per-capita metrics.
+
+## Interactive Dashboard
+
+Explore the full analysis on Google Colab:  
+[View Dashboard](https://colab.research.google.com/drive/10jhodvwWfd5-PVtLUUrUFYBxtB-BEvOR?usp=sharing)
+
+Or scan the QR code:
+
+![Dashboard QR Code](/assets/projects/covid-qr.png)
+
+## Conclusion
+This analysis shows that COVID-19 outbreaks followed very different paths by country in the first seven months of 2020. Europe (Germany, Italy) peaked early and was contained, while the US, Brazil, and India were still seeing rising daily cases by late July. The US had the largest burden, with over 4.29M confirmed cases and 148K deaths. India had the best recovery rate (64.26%) but was growing fastest at the end of the period.
+
+On the modeling side, the ARIMA(7,1,0) baseline (RMSE ≈ 24,798) tracked the short-term trend but missed the July surge. Statistical models fit to case counts alone are not enough to forecast outbreaks. Better results would need richer methods (Prophet, SARIMA) and external drivers such as mobility, testing, and policy data.
+
+Overall, the project demonstrates a complete workflow: cleaning and aggregating raw data, engineering time series features, comparing countries, forecasting, and delivering the results through an interactive dashboard. Fixing the R0 estimate, smoothing the wave detection, and adding per-capita metrics would be the next steps to make the findings more reliable.
