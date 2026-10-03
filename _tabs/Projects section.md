@@ -345,7 +345,7 @@ The integration of **Excel, Python, and Power BI** provides a powerful end-to-en
 
 # 6. COVID-19 Time Series Analysis & Forecasting Project
 
-![Dashboard Screenshot](/assets/projects/Covid.PNG)
+![Dashboard](/assets/projects/covid.png)
 
 ## Overview
 This project analyzes global COVID-19 data (January 22 – July 27, 2020) to uncover trends in case growth, mortality, recovery, and infection waves across countries. It covers data cleaning, exploratory analysis, time series decomposition, ARIMA forecasting, and a multi-country interactive dashboard built in Python.
