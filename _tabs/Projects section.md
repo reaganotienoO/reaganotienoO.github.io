@@ -392,7 +392,7 @@ This project analyzes global COVID-19 data (January 22 – July 27, 2020) to unc
 3. **Better Forecasting**: Use richer models (Prophet, SARIMA, or models with mobility and policy data) instead of a basic ARIMA.
 4. **Context Matters**: Compare regions at similar stages of their outbreak rather than on raw totals.
 
-## Limitations & Next Steps
+## Limitations and Next Steps
 - Reported cases depend on testing capacity and reporting practices, which differ by country.
 - Peak detection split the US curve into 15 small "waves"; it needs smoothing or a prominence threshold.
 - The simple R0 estimate returned 0.00 because of infinite growth rates in early data and should be replaced with a proper method.
