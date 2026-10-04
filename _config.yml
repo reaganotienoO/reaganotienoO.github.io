@@ -34,7 +34,7 @@ social:
 # ==================================================
 avatar: /assets/prof.PNG  # Path to your profile photo (ensure correct case)
 social_preview_image: false # SEO preview image
-theme_mode: light  # [light | dark | empty for system default]
+theme_mode: dark  # [light | dark | empty for system default]
 
 # ==================================================
 # Content Settings
