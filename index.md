@@ -6,7 +6,7 @@ title: Home
 
 # Reagan Odhiambo Otieno
 
-![Reagan Odhiambo Otieno](assets/Reagan.PNG)  
+![Reagan Odhiambo Otieno](assets/Reagan.png)  
 *Data Analyst | Data & AI | Business Insights*
 
 ---
