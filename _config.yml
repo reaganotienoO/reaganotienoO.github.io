@@ -1,23 +1,17 @@
-# ==================================================
-# Core Settings
-# ==================================================
 theme: jekyll-theme-chirpy
+
 lang: en
 timezone: Africa/Nairobi
+
 title: Reagan Odhiambo Otieno
-tagline: Data Analyst | Data & AI | Business Insights
+tagline: Data Analyst | Turning Data into Actionable Insights
 description: >-
-  Data Analyst specializing in Python, SQL, Excel, Power BI, data visualization, and transforming data into actionable business insights.
+  Data Analyst specializing in Python, SQL, Excel, Power BI, data visualization,
+  data cleaning, and transforming data into actionable business insights.
 
-# ==================================================
-# URL & Deployment (CRITICAL SETTINGS)
-# ==================================================
-url: "https://reaganotienoo.github.io"  # Use all lowercase for consistency
-baseurl: ""  # Leave empty for root domains
+url: "https://reaganotienoo.github.io"
+baseurl: ""
 
-# ==================================================
-# Social & Professional Profiles
-# ==================================================
 github:
   username: reaganotienoO
 
@@ -29,36 +23,13 @@ social:
     - https://github.com/reaganotienoO
     - https://www.datascienceportfol.io/otienireagan
 
-# ==================================================
-# Visual Customization
-# ==================================================
-avatar: /assets/prof.PNG  # Path to your profile photo (ensure correct case)
-social_preview_image: false # SEO preview image
-theme_mode: dark  # [light | dark | empty for system default]
+avatar: /assets/prof.PNG
 
-# ==================================================
-# Content Settings
-# ==================================================
-toc: true  # Enable table of contents in posts
-paginate: 10  # Posts per page
+theme_mode: dark
 
-# ==================================================
-# Optional Features (Disable if not needed)
-# ==================================================
-# Analytics (uncomment and fill if used)
-# analytics:
-#   google:
-#     id: UA-XXXXXX-X
+toc: true
+paginate: 10
 
-# Comments (uncomment if needed)
-# comments:
-#   provider: disqus
-#   disqus:
-#     shortname: your-disqus-shortname
-
-# ==================================================
-# Advanced Settings (Recommended not to modify)
-# ==================================================
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
@@ -81,10 +52,12 @@ defaults:
       comments: false
       toc: true
       permalink: /posts/:title/
+
   - scope:
       path: _drafts
     values:
       comments: false
+
   - scope:
       path: ""
       type: tabs
@@ -92,9 +65,6 @@ defaults:
       layout: page
       permalink: /:title/
 
-# ==================================================
-# File Management
-# ==================================================
 exclude:
   - "*.gem"
   - "*.gemspec"
