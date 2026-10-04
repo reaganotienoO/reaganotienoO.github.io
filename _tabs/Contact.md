@@ -10,4 +10,4 @@ order: 5
 - **Phone**: [+254716441958](tel:+254716441958)  
 - **LinkedIn**: [Reagan Otieno](https://www.linkedin.com/in/reagan-odhiambo-otieno1)  
 - **GitHub**: [reaganotienoO](https://github.com/reaganotienoO/reaganotienoO.github.io/)  
-- **Portfolio**: [Data Science Portfolio](https://www.datascienceportfol.io/otienireagan)  
+- **Portfolio**: [Portfolio](https://reaganotienoo.github.io/)  
